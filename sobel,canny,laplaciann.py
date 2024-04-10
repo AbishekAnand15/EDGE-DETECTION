@@ -1,12 +1,12 @@
 # In[1]:Import the packages
-# Reg no : 
-# Name : 
+# Reg no : 212222230004
+# Name : Abishek Xavier A
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image, Convert to grayscale and remove noise
-image1=cv2.imread ('downloads.jpg') 
+image1=cv2.imread ('spiderman.jpg') 
 gray = cv2.cvtColor
 plt.title('GRAY IMAGE')
 plt.imshow(gray,cmap = 'gray')
